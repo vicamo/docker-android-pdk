@@ -1,4 +1,4 @@
-FROM vicamo/java:oracle-java-6-jdk
+FROM vicamo/java:wheezy-oracle-java-6-jdk
 
 RUN dpkg --add-architecture i386 \
 	&& apt-get update \
