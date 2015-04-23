@@ -1,4 +1,4 @@
-FROM vicamo/java:jessie-openjdk-7-jdk
+FROM vicamo/java:jessie-oracle-java-6-jdk
 
 RUN echo "deb http://http.debian.net/debian wheezy main" > /etc/apt/sources.list.d/http.debian.net_wheezy.list \
 	&& dpkg --add-architecture i386 \
@@ -29,8 +29,8 @@ RUN echo "deb http://http.debian.net/debian wheezy main" > /etc/apt/sources.list
 		zlib1g-dev \
 		zlib1g-dev:i386 \
 	&& apt-get clean \
-	&& ln -s libGL.so.1.2.0 /usr/lib/i386-linux-gnu/libGL.so \
-	&& rm -f /var/lib/apt/lists/*_dists_*
+	&& rm -f /var/lib/apt/lists/*_dists_* \
+	&& ln -s libGL.so.1.2.0 /usr/lib/i386-linux-gnu/libGL.so
 
 RUN wget -nv -O /usr/bin/repo https://storage.googleapis.com/git-repo-downloads/repo \
 	&& chmod a+x /usr/bin/repo

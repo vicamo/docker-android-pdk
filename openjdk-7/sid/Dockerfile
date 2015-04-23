@@ -1,4 +1,4 @@
-FROM vicamo/java:jessie-openjdk-7-jdk
+FROM vicamo/java:sid-openjdk-7-jdk
 
 RUN echo "deb http://http.debian.net/debian wheezy main" > /etc/apt/sources.list.d/http.debian.net_wheezy.list \
 	&& dpkg --add-architecture i386 \

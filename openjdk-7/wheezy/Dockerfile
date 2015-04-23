@@ -1,7 +1,6 @@
-FROM vicamo/java:jessie-openjdk-7-jdk
+FROM vicamo/java:wheezy-openjdk-7-jdk
 
-RUN echo "deb http://http.debian.net/debian wheezy main" > /etc/apt/sources.list.d/http.debian.net_wheezy.list \
-	&& dpkg --add-architecture i386 \
+RUN dpkg --add-architecture i386 \
 	&& apt-get update \
 	&& apt-get install --no-install-recommends -y --force-yes \
 		bison \
@@ -21,7 +20,7 @@ RUN echo "deb http://http.debian.net/debian wheezy main" > /etc/apt/sources.list
 		libx11-dev:i386 \
 		libxml2-utils \
 		less \
-		make=3.81-8.2 \
+		make \
 		python-chardet \
 		unzip \
 		wget \
