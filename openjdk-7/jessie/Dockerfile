@@ -2,7 +2,7 @@ FROM java:openjdk-7-jdk
 
 MAINTAINER vicamo@gmail.com
 
-RUN echo "deb http://http.debian.net/debian stable main" > /etc/apt/sources.list.d/http.debian.net_stable.list \
+RUN echo "deb http://http.debian.net/debian wheezy main" > /etc/apt/sources.list.d/http.debian.net_wheezy.list \
 	&& dpkg --add-architecture i386 \
 	&& apt-get update \
 	&& apt-get install --no-install-recommends -y --force-yes \
