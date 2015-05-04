@@ -21,6 +21,7 @@ RUN dpkg --add-architecture i386 \
 		libxml2-utils \
 		less \
 		python-chardet \
+		telnet \
 		unzip \
 		wget \
 		zip \

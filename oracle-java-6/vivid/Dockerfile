@@ -23,6 +23,7 @@ RUN echo "deb http://archive.ubuntu.com/ubuntu/ trusty main" > /etc/apt/sources.
 		less \
 		make=3.81-8.2ubuntu3 \
 		python-chardet \
+		telnet \
 		unzip \
 		wget \
 		zip \

@@ -23,6 +23,7 @@ RUN echo "deb http://http.debian.net/debian wheezy main" > /etc/apt/sources.list
 		less \
 		make=3.81-8.2 \
 		python-chardet \
+		telnet \
 		unzip \
 		wget \
 		zip \

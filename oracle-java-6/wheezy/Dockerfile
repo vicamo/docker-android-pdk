@@ -22,6 +22,7 @@ RUN dpkg --add-architecture i386 \
 		less \
 		make=3.81-8.2 \
 		python-chardet \
+		telnet \
 		unzip \
 		wget \
 		zip \
