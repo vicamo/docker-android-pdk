@@ -15,6 +15,8 @@ RUN echo "deb http://archive.ubuntu.com/ubuntu/ trusty main" > /etc/apt/sources.
 		gnupg \
 		gperf \
 		libgl1-mesa-dev \
+		libgl1-mesa-dri \
+		libgl1-mesa-dri:i386 \
 		libgl1-mesa-glx:i386 \
 		libncurses5-dev:i386 \
 		libswitch-perl \

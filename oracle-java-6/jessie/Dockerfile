@@ -14,6 +14,8 @@ RUN echo "deb http://http.debian.net/debian wheezy main" > /etc/apt/sources.list
 		gnupg \
 		gperf \
 		libgl1-mesa-dev \
+		libgl1-mesa-dri \
+		libgl1-mesa-dri:i386 \
 		libgl1-mesa-glx:i386 \
 		libncurses5-dev:i386 \
 		libswitch-perl \
