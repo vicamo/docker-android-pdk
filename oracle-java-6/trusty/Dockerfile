@@ -3,6 +3,9 @@ FROM vicamo/java:trusty-oracle-java-6-jdk
 RUN dpkg --add-architecture i386 \
 	&& apt-get update \
 	&& apt-get install --no-install-recommends -y --force-yes \
+		android-tools-adb \
+		android-tools-fastboot \
+		android-tools-fsutils \
 		bison \
 		build-essential \
 		ccache \
