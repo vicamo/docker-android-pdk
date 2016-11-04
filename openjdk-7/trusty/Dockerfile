@@ -2,7 +2,7 @@ FROM vicamo/java:trusty-openjdk-7-jdk
 
 RUN dpkg --add-architecture i386 \
 	&& apt-get update \
-	&& apt-get install --no-install-recommends -y --force-yes \
+	&& apt-get install --no-install-recommends -y \
 		android-tools-adb \
 		android-tools-fastboot \
 		android-tools-fsutils \

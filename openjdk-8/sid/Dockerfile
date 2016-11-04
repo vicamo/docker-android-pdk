@@ -3,7 +3,7 @@ FROM vicamo/java:sid-openjdk-8-jdk
 RUN echo "deb http://http.debian.net/debian wheezy main" > /etc/apt/sources.list.d/http.debian.net_wheezy.list \
 	&& dpkg --add-architecture i386 \
 	&& apt-get update \
-	&& apt-get install --no-install-recommends -y --force-yes \
+	&& apt-get install --no-install-recommends -y \
 		android-tools-adb \
 		android-tools-fastboot \
 		android-tools-fsutils \

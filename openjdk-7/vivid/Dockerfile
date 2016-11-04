@@ -3,7 +3,7 @@ FROM vicamo/java:vivid-openjdk-7-jdk
 RUN echo "deb http://archive.ubuntu.com/ubuntu/ trusty main" > /etc/apt/sources.list.d/trusty.list \
 	&& dpkg --add-architecture i386 \
 	&& apt-get update \
-	&& apt-get install --no-install-recommends -y --force-yes \
+	&& apt-get install --no-install-recommends -y \
 		android-tools-adb \
 		android-tools-fastboot \
 		android-tools-fsutils \

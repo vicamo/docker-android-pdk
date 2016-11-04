@@ -2,7 +2,7 @@ FROM vicamo/java:wheezy-oracle-java-6-jdk
 
 RUN dpkg --add-architecture i386 \
 	&& apt-get update \
-	&& apt-get install --no-install-recommends -y --force-yes \
+	&& apt-get install --no-install-recommends -y \
 		bison \
 		build-essential \
 		ccache \
