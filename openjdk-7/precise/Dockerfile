@@ -1,7 +1,6 @@
 FROM vicamo/java:precise-openjdk-7-jdk
 
-RUN dpkg --add-architecture i386 \
-	&& apt-get update \
+RUN apt-get update \
 	&& apt-get install --no-install-recommends -y \
 		bison \
 		build-essential \
