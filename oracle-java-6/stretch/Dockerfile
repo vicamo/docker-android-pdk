@@ -1,6 +1,7 @@
 FROM vicamo/java:stretch-oracle-java-6-jdk
 
 RUN echo "deb http://http.debian.net/debian wheezy main" > /etc/apt/sources.list.d/http.debian.net_wheezy.list \
+	&& echo "deb http://http.debian.net/debian jessie main" > /etc/apt/sources.list.d/http.debian.net_jessie.list \
 	&& dpkg --add-architecture i386 \
 	&& apt-get update \
 	&& apt-get install --no-install-recommends -y \
