@@ -1,4 +1,4 @@
-FROM vicamo/java:trusty-openjdk-7-jdk
+FROM vicamo/openjdk:trusty-7-jdk
 
 RUN dpkg --add-architecture i386 \
 	&& apt-get update \

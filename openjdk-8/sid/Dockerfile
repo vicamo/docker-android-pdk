@@ -1,4 +1,4 @@
-FROM vicamo/java:sid-openjdk-8-jdk
+FROM vicamo/openjdk:sid-8-jdk
 
 RUN echo "deb http://http.debian.net/debian wheezy main" > /etc/apt/sources.list.d/http.debian.net_wheezy.list \
 	&& dpkg --add-architecture i386 \

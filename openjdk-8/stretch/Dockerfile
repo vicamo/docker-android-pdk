@@ -1,4 +1,4 @@
-FROM vicamo/java:stretch-openjdk-8-jdk
+FROM vicamo/openjdk:stretch-8-jdk
 
 RUN echo "deb http://http.debian.net/debian wheezy main" > /etc/apt/sources.list.d/http.debian.net_wheezy.list \
 	&& echo "deb http://http.debian.net/debian jessie main" > /etc/apt/sources.list.d/http.debian.net_jessie.list \

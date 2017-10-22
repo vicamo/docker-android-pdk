@@ -1,4 +1,4 @@
-FROM vicamo/java:wheezy-openjdk-7-jdk
+FROM vicamo/openjdk:wheezy-7-jdk
 
 RUN dpkg --add-architecture i386 \
 	&& apt-get update \
