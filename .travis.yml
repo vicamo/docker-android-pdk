@@ -5,7 +5,6 @@ env:
   matrix:
   - VERSION=oracle-java-6/yakkety
   - VERSION=oracle-java-6/xenial
-  - VERSION=oracle-java-6/wily
   - VERSION=oracle-java-6/wheezy
   - VERSION=oracle-java-6/vivid
   - VERSION=oracle-java-6/trusty
@@ -15,13 +14,11 @@ env:
   - VERSION=oracle-java-6/jessie
   - VERSION=openjdk-8/yakkety
   - VERSION=openjdk-8/xenial
-  - VERSION=openjdk-8/wily
   - VERSION=openjdk-8/vivid
   - VERSION=openjdk-8/trusty
   - VERSION=openjdk-8/stretch
   - VERSION=openjdk-8/sid
   - VERSION=openjdk-7/xenial
-  - VERSION=openjdk-7/wily
   - VERSION=openjdk-7/wheezy
   - VERSION=openjdk-7/vivid
   - VERSION=openjdk-7/trusty
