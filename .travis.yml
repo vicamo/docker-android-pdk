@@ -6,7 +6,6 @@ env:
   - VERSION=oracle-java-6/yakkety
   - VERSION=oracle-java-6/xenial
   - VERSION=oracle-java-6/wheezy
-  - VERSION=oracle-java-6/vivid
   - VERSION=oracle-java-6/trusty
   - VERSION=oracle-java-6/stretch
   - VERSION=oracle-java-6/sid
@@ -15,7 +14,6 @@ env:
   - VERSION=openjdk-8/zesty
   - VERSION=openjdk-8/yakkety
   - VERSION=openjdk-8/xenial
-  - VERSION=openjdk-8/vivid
   - VERSION=openjdk-8/trusty
   - VERSION=openjdk-8/stretch
   - VERSION=openjdk-8/sid
@@ -24,7 +22,6 @@ env:
   - VERSION=openjdk-8/artful
   - VERSION=openjdk-7/xenial
   - VERSION=openjdk-7/wheezy
-  - VERSION=openjdk-7/vivid
   - VERSION=openjdk-7/trusty
   - VERSION=openjdk-7/precise
   - VERSION=openjdk-7/jessie
