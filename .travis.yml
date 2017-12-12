@@ -19,6 +19,7 @@ env:
   - VERSION=openjdk-8/sid
   - VERSION=openjdk-8/jessie
   - VERSION=openjdk-8/buster
+  - VERSION=openjdk-8/bionic
   - VERSION=openjdk-8/artful
   - VERSION=openjdk-7/xenial
   - VERSION=openjdk-7/wheezy
