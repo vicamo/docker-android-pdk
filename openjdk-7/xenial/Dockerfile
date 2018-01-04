@@ -4,8 +4,8 @@ RUN echo "deb http://archive.ubuntu.com/ubuntu/ trusty main" > /etc/apt/sources.
 	&& dpkg --add-architecture i386 \
 	&& apt-get update \
 	&& apt-get install --no-install-recommends -y \
-		android-tools-adb \
-		android-tools-fastboot \
+		adb \
+		fastboot \
 		android-tools-fsutils \
 		bison \
 		build-essential \

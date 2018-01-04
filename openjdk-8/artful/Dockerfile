@@ -4,19 +4,21 @@ RUN echo "deb http://archive.ubuntu.com/ubuntu/ trusty main" > /etc/apt/sources.
 	&& dpkg --add-architecture i386 \
 	&& apt-get update \
 	&& apt-get install --no-install-recommends -y \
-		android-tools-adb \
-		android-tools-fastboot \
-		android-tools-fsutils \
+		adb \
+		append2simg \
 		bison \
 		build-essential \
 		ccache \
 		default-jdk \
+		fastboot \
 		file \
 		flex \
 		g++-multilib \
 		git \
 		gnupg \
 		gperf \
+		img2simg \
+		less \
 		libgl1-mesa-dev \
 		libgl1-mesa-dri \
 		libgl1-mesa-dri:i386 \
@@ -26,9 +28,9 @@ RUN echo "deb http://archive.ubuntu.com/ubuntu/ trusty main" > /etc/apt/sources.
 		libx11-dev \
 		libx11-dev:i386 \
 		libxml2-utils \
-		less \
 		make=3.81-8.2ubuntu3 \
 		python-chardet \
+		simg2img \
 		telnet \
 		unzip \
 		wget \
