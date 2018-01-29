@@ -9,7 +9,6 @@ env:
   - VERSION=oracle-java-6/stretch
   - VERSION=oracle-java-6/sid
   - VERSION=oracle-java-6/jessie
-  - VERSION=openjdk-8/zesty
   - VERSION=openjdk-8/xenial
   - VERSION=openjdk-8/trusty
   - VERSION=openjdk-8/stretch
