@@ -9,7 +9,6 @@ RUN echo "deb http://archive.ubuntu.com/ubuntu/ trusty main" > /etc/apt/sources.
 		bison \
 		build-essential \
 		ccache \
-		default-jdk \
 		fastboot \
 		file \
 		flex \

@@ -9,7 +9,6 @@ RUN dpkg --add-architecture i386 \
 		bison \
 		build-essential \
 		ccache \
-		default-jdk \
 		file \
 		flex \
 		g++-multilib \
