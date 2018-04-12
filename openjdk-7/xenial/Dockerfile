@@ -1,4 +1,4 @@
-FROM vicamo/java:xenial-openjdk-7-jdk
+FROM vicamo/openjdk:xenial-7-jdk
 
 RUN echo "deb http://archive.ubuntu.com/ubuntu/ trusty main" > /etc/apt/sources.list.d/trusty.list \
 	&& dpkg --add-architecture i386 \
