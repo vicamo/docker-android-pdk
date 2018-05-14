@@ -5,7 +5,7 @@ RUN echo "deb http://http.debian.net/debian wheezy main" > /etc/apt/sources.list
 	&& apt-get update \
 	&& apt-get install --no-install-recommends -y \
 		adb \
-		append2simg \
+		android-tools-fsutils \
 		bison \
 		build-essential \
 		ccache \
@@ -16,7 +16,6 @@ RUN echo "deb http://http.debian.net/debian wheezy main" > /etc/apt/sources.list
 		git \
 		gnupg \
 		gperf \
-		img2simg \
 		less \
 		libgl1-mesa-dev \
 		libgl1-mesa-dri \
@@ -29,7 +28,6 @@ RUN echo "deb http://http.debian.net/debian wheezy main" > /etc/apt/sources.list
 		libxml2-utils \
 		make=3.81-8.2 \
 		python-chardet \
-		simg2img \
 		telnet \
 		unzip \
 		wget \

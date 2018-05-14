@@ -4,7 +4,7 @@ RUN dpkg --add-architecture i386 \
 	&& apt-get update \
 	&& apt-get install --no-install-recommends -y \
 		adb \
-		append2simg \
+		android-tools-fsutils \
 		bison \
 		build-essential \
 		ccache \
@@ -16,13 +16,11 @@ RUN dpkg --add-architecture i386 \
 		git \
 		gnupg \
 		gperf \
-		img2simg \
 		less \
 		libgl1 \
 		libgl1:i386 \
 		libxml2-utils \
 		make \
-		simg2img \
 		telnet \
 		unzip \
 		wget \
