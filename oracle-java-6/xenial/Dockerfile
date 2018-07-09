@@ -31,6 +31,7 @@ RUN echo "deb http://archive.ubuntu.com/ubuntu/ trusty main" > /etc/apt/sources.
 		telnet \
 		unzip \
 		wget \
+		xsltproc \
 		zip \
 		zlib1g-dev \
 		zlib1g-dev:i386 \

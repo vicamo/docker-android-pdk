@@ -29,6 +29,7 @@ RUN dpkg --add-architecture i386 \
 		telnet \
 		unzip \
 		wget \
+		xsltproc \
 		zip \
 		zlib1g-dev \
 		zlib1g-dev:i386 \

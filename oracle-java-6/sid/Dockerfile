@@ -31,6 +31,7 @@ RUN echo "deb http://http.debian.net/debian wheezy main" > /etc/apt/sources.list
 		telnet \
 		unzip \
 		wget \
+		xsltproc \
 		zip \
 		zlib1g-dev \
 		zlib1g-dev:i386 \
