@@ -27,6 +27,12 @@ RUN dpkg --add-architecture i386 \
 		unzip \
 		wget \
 		zip \
+	&& apt-get install --no-install-recommends -y \
+		locales \
+		lsb-release \
+		pbzip2 \
+	&& (echo "fr_FR.UTF-8 UTF-8" | tee /var/lib/locales/supported.d/android) \
+	&& dpkg-reconfigure locales \
 	&& apt-get clean \
 	&& rm -f /var/lib/apt/lists/*_dists_*
 

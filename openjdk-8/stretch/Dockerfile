@@ -27,6 +27,12 @@ RUN dpkg --add-architecture i386 \
 		unzip \
 		wget \
 		zip \
+	&& apt-get install --no-install-recommends -y \
+		locales \
+		lsb-release \
+		pbzip2 \
+	&& sed 's,^# fr_FR.UTF-8 UTF-8,fr_FR.UTF-8 UTF-8,' -i /etc/locale.gen \
+	&& locale-gen \
 	&& apt-get clean \
 	&& rm -f /var/lib/apt/lists/*_dists_*
 
